@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.faq-box {
+  background-color: gray;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.quen {
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  color: aqua;
+  cursor: pointer;
+}
+
+button {
+  background-color: gray;
+  color: blue;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ans {
+  display: flex;
+  margin: 15px 0 5px 50px;
+  color: aquamarine;
+  font-size: 18px;
+  align-self: left;
+  justify-content: left;
+}
+
+.arrow {
+  transform: rotate(90deg);
+}

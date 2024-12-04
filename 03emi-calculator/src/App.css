@@ -1,0 +1,47 @@
+body {
+  background-color: aquamarine;
+}
+
+.loan-calc {
+  width: 400px;
+  height: 450px;
+  background-color: white;
+  margin: 100px auto;
+}
+
+.inputs {
+  margin: 0 40px;
+  color: rgb(17, 103, 204);
+}
+
+input {
+  height: 30px;
+  width: 100%;
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(17, 103, 204);
+}
+
+button {
+  margin: 10px 90px 10px 160px;
+  background-color: blue;
+  color: white;
+  height: 35px;
+  width: 100px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.emi {
+  text-align: center;
+  color: yellowgreen;
+}

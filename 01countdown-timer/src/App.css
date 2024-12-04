@@ -24,14 +24,12 @@ body {
 .timer-btn {
   height: 40px;
   width: 100px;
+  background-color: aqua;
   border: none;
-  outline: none;
-  border-radius: 5px;
-  background-color: rgb(36, 33, 218);
-  color: #FFF;
+  border-radius: 7px;
   font-size: 20px;
   font-weight: bold;
-  margin: 5px;
+  margin: 10px;
   cursor: pointer;
 }
 
@@ -40,4 +38,5 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 90px;
+  color: rgb(61, 171, 171);
 }
