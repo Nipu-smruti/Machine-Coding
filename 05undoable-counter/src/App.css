@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.user-Action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: aquamarine;
+  height: 40px;
+  width: 100px;
+  margin: 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.history {
+  height: 250px;
+  width: 200px;
+  margin: 100px auto;
+  overflow-y: auto;
+  border: 1px solid black;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  font-size: 20px;
+}

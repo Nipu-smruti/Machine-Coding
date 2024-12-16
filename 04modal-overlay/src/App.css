@@ -1,0 +1,64 @@
+.show-offer {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer-btn {
+  height: 60px;
+  width: 150px;
+  background-color: aqua;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal {
+  background: radial-gradient(white, rgba(0, 0, 0, 0.5));
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  place-items: center;
+  display: grid;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+  position: relative;
+  padding: 16px;
+  gap: 20%;
+}
+.close-btn{
+  position: absolute;
+  background-color: aquamarine;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.content{
+  margin-top: 60px;
+  height: 200px;
+  width: 250px;
+  font-size: 23px;
+}
+.accept-btn{
+  background-color: blue;
+  color: white;
+  border: none;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}

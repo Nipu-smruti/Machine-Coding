@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  height: 40px;
+  width: 240px;
+  outline: none;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 40vh;
+  width: 40vh;
+  grid-gap: 16px;
+}
+
+.cell {
+  background-color: aqua;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+}

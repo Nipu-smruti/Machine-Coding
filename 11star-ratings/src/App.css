@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.star {
+  margin: 20px;
+  font-size: 70px;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.on {
+  color: blue;
+}
+
+.off {
+  color: bisque;
+}
