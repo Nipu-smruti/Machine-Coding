@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  align-items: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.card {
+  height: 70px;
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: lightgray;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: #FFF;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  margin: 10px 0;
+  padding: 5px;
+  border: none;
+  background-color: purple;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}

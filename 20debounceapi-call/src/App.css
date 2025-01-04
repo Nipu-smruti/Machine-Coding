@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+input {
+  height: 30px;
+  width: 200px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+}
+
+.product-list {
+  height: 250px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  border: 1px solid lightgray;
+  overflow-y: auto;
+  background-color: lightgray;
+}
+
+.item{
+  font-size: 20px;
+  text-align: left;
+  padding: 5px;
+}
+.item:hover{
+  background-color: lightblue;
+  cursor: pointer;
+}

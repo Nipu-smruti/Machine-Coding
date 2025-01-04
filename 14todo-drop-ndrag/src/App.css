@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+input {
+  height: 30px;
+  width: 250px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.board {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo {
+  width: 33%;
+  height: 400px;
+}
+
+.doing {
+  width: 33%;
+  height: 400px;
+  margin: 0 10px;
+}
+
+.done {
+  width: 33%;
+  height: 400px;
+}
+
+.todo-col {
+  background-color: red;
+  color: yellow;
+  padding: 10px 0;
+}
+
+.doing-col {
+  background-color: yellow;
+  color: red;
+  padding: 10px 0;
+}
+
+.done-col {
+  background-color: green;
+  color: white;
+  padding: 10px 0;
+}
+
+.task-item {
+  width: 90%;
+  height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 0.7px solid lightgray;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.task-item:hover {
+  background-color: lightgray;
+  cursor: grab;
+}
+
+.btn {
+  height: 60px;
+  width: 60px;
+  padding: 5px;
+}
+
+.btn:hover {
+  background-color: purple;
+  cursor: pointer;
+  border-radius: 50%;
+}
